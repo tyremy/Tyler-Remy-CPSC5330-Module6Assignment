@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		909A0D232B823DDA00295E4F /* ConversionResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A0D222B823DDA00295E4F /* ConversionResults.swift */; };
+		909A0D262B8247A700295E4F /* ConversionLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A0D252B8247A700295E4F /* ConversionLogic.swift */; };
+		909D82DF2B7ECB9100552B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D82DE2B7ECB9100552B5E /* AppDelegate.swift */; };
+		909D82E12B7ECB9100552B5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D82E02B7ECB9100552B5E /* SceneDelegate.swift */; };
+		909D82E32B7ECB9100552B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D82E22B7ECB9100552B5E /* ViewController.swift */; };
+		909D82E62B7ECB9100552B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909D82E42B7ECB9100552B5E /* Main.storyboard */; };
+		909D82E82B7ECB9200552B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909D82E72B7ECB9200552B5E /* Assets.xcassets */; };
+		909D82EB2B7ECB9200552B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909D82E92B7ECB9200552B5E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		909A0D222B823DDA00295E4F /* ConversionResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionResults.swift; sourceTree = "<group>"; };
+		909A0D252B8247A700295E4F /* ConversionLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionLogic.swift; sourceTree = "<group>"; };
+		909D82DB2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tyler Remy CPSC 5330 Assignment 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		909D82DE2B7ECB9100552B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		909D82E02B7ECB9100552B5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		909D82E22B7ECB9100552B5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		909D82E52B7ECB9100552B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909D82E72B7ECB9200552B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909D82EA2B7ECB9200552B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		909D82EC2B7ECB9200552B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909D82D82B7ECB9100552B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		909A0D242B82478600295E4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				909D82E22B7ECB9100552B5E /* ViewController.swift */,
+				909A0D222B823DDA00295E4F /* ConversionResults.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		909A0D272B8247B100295E4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				909A0D252B8247A700295E4F /* ConversionLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		909D82D22B7ECB9100552B5E = {
+			isa = PBXGroup;
+			children = (
+				909D82DD2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6 */,
+				909D82DC2B7ECB9100552B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		909D82DC2B7ECB9100552B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909D82DB2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909D82DD2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6 */ = {
+			isa = PBXGroup;
+			children = (
+				909D82DE2B7ECB9100552B5E /* AppDelegate.swift */,
+				909D82E02B7ECB9100552B5E /* SceneDelegate.swift */,
+				909A0D272B8247B100295E4F /* Model */,
+				909A0D242B82478600295E4F /* View */,
+				909D82E42B7ECB9100552B5E /* Main.storyboard */,
+				909D82E72B7ECB9200552B5E /* Assets.xcassets */,
+				909D82E92B7ECB9200552B5E /* LaunchScreen.storyboard */,
+				909D82EC2B7ECB9200552B5E /* Info.plist */,
+			);
+			path = "Tyler Remy CPSC 5330 Assignment 6";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909D82DA2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909D82EF2B7ECB9200552B5E /* Build configuration list for PBXNativeTarget "Tyler Remy CPSC 5330 Assignment 6" */;
+			buildPhases = (
+				909D82D72B7ECB9100552B5E /* Sources */,
+				909D82D82B7ECB9100552B5E /* Frameworks */,
+				909D82D92B7ECB9100552B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tyler Remy CPSC 5330 Assignment 6";
+			productName = "Tyler Remy CPSC 5330 Assignment 6";
+			productReference = 909D82DB2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909D82D32B7ECB9100552B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					909D82DA2B7ECB9100552B5E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 909D82D62B7ECB9100552B5E /* Build configuration list for PBXProject "Tyler Remy CPSC 5330 Assignment 6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909D82D22B7ECB9100552B5E;
+			productRefGroup = 909D82DC2B7ECB9100552B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909D82DA2B7ECB9100552B5E /* Tyler Remy CPSC 5330 Assignment 6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909D82D92B7ECB9100552B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909D82EB2B7ECB9200552B5E /* LaunchScreen.storyboard in Resources */,
+				909D82E82B7ECB9200552B5E /* Assets.xcassets in Resources */,
+				909D82E62B7ECB9100552B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909D82D72B7ECB9100552B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909D82E32B7ECB9100552B5E /* ViewController.swift in Sources */,
+				909A0D262B8247A700295E4F /* ConversionLogic.swift in Sources */,
+				909D82DF2B7ECB9100552B5E /* AppDelegate.swift in Sources */,
+				909A0D232B823DDA00295E4F /* ConversionResults.swift in Sources */,
+				909D82E12B7ECB9100552B5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		909D82E42B7ECB9100552B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909D82E52B7ECB9100552B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		909D82E92B7ECB9200552B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909D82EA2B7ECB9200552B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		909D82ED2B7ECB9200552B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		909D82EE2B7ECB9200552B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909D82F02B7ECB9200552B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tyler Remy CPSC 5330 Assignment 6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.Tyler-Remy-CPSC-5330-Assignment-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909D82F12B7ECB9200552B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tyler Remy CPSC 5330 Assignment 6/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.Tyler-Remy-CPSC-5330-Assignment-6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909D82D62B7ECB9100552B5E /* Build configuration list for PBXProject "Tyler Remy CPSC 5330 Assignment 6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909D82ED2B7ECB9200552B5E /* Debug */,
+				909D82EE2B7ECB9200552B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909D82EF2B7ECB9200552B5E /* Build configuration list for PBXNativeTarget "Tyler Remy CPSC 5330 Assignment 6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909D82F02B7ECB9200552B5E /* Debug */,
+				909D82F12B7ECB9200552B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909D82D32B7ECB9100552B5E /* Project object */;
+}
